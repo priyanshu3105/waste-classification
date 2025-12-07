@@ -62,8 +62,8 @@ pip install -r requirements.txt
 ### 📦 Dataset
 **⚠️ Required for training/evaluation**
 
-- **Download Link:** [Google Drive - Dataset](INSERT_YOUR_DATASET_LINK_HERE)
-- **Size:** ~XXX MB (compressed)
+- **Download Link:** [Google Drive - Dataset](https://drive.google.com/drive/folders/1ikRc06pV3Qer3_GD2mbXSDJv-gubw5hB?usp=drive_link)
+- **Size:** ~240 MB (compressed)
 - **Extract to:** `data/garbage_classification/`
 - **Structure:**
 ```
@@ -85,10 +85,10 @@ pip install -r requirements.txt
 ### 🤖 Pre-trained Models
 **⚠️ Required for running the app without training**
 
-- **Download Link:** [Google Drive - Models](INSERT_YOUR_MODELS_LINK_HERE)
+- **Download Link:** [Google Drive - Models](https://drive.google.com/drive/folders/1yN9aFpoYq_92iuYUwDXhpznuP9kSwxYr?usp=drive_link)
 - **Files:**
-  - `baseline_fast_model.h5` (~XX MB)
-  - `resnet50_advanced_model.h5` (~XX MB)
+  - `baseline_fast_model.h5` (~1.4 MB)
+  - `resnet50_advanced_model.h5` (~250 MB)
 - **Place in:** `models/` directory
 
 ---
