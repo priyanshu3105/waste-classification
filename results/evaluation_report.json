@@ -1,0 +1,86 @@
+{
+  "baseline_model": {
+    "name": "Baseline CNN",
+    "image_size": "64x64",
+    "accuracy": 0.7134600877761841,
+    "loss": 0.6773695945739746,
+    "classification_report": {
+      "non_organic": {
+        "precision": 0.8257510729613734,
+        "recall": 0.5380313199105146,
+        "f1-score": 0.6515408059600406,
+        "support": 1788.0
+      },
+      "organic": {
+        "precision": 0.7053688345700567,
+        "recall": 0.9038031319910514,
+        "f1-score": 0.7923510664378525,
+        "support": 1788.0
+      },
+      "recyclable": {
+        "precision": 0.6546121593291404,
+        "recall": 0.6985458612975392,
+        "f1-score": 0.6758658008658008,
+        "support": 1788.0
+      },
+      "accuracy": 0.7134601043997018,
+      "macro avg": {
+        "precision": 0.7285773556201902,
+        "recall": 0.7134601043997018,
+        "f1-score": 0.706585891087898,
+        "support": 5364.0
+      },
+      "weighted avg": {
+        "precision": 0.7285773556201902,
+        "recall": 0.7134601043997018,
+        "f1-score": 0.706585891087898,
+        "support": 5364.0
+      }
+    }
+  },
+  "advanced_model": {
+    "name": "ResNet50",
+    "image_size": "160x160",
+    "accuracy": 0.7762863636016846,
+    "loss": 0.725713312625885,
+    "classification_report": {
+      "non_organic": {
+        "precision": 0.7401340282948623,
+        "recall": 0.5559284116331096,
+        "f1-score": 0.6349409134461833,
+        "support": 1788.0
+      },
+      "organic": {
+        "precision": 0.9608282036933408,
+        "recall": 0.9602908277404921,
+        "f1-score": 0.9605594405594405,
+        "support": 1788.0
+      },
+      "recyclable": {
+        "precision": 0.6504028648164727,
+        "recall": 0.8126398210290827,
+        "f1-score": 0.722526106414719,
+        "support": 1788.0
+      },
+      "accuracy": 0.7762863534675615,
+      "macro avg": {
+        "precision": 0.7837883656015586,
+        "recall": 0.7762863534675616,
+        "f1-score": 0.772675486806781,
+        "support": 5364.0
+      },
+      "weighted avg": {
+        "precision": 0.7837883656015586,
+        "recall": 0.7762863534675615,
+        "f1-score": 0.7726754868067809,
+        "support": 5364.0
+      }
+    }
+  },
+  "comparison": {
+    "accuracy_difference": 0.06282627582550049,
+    "accuracy_difference_percent": 8.805857104260244,
+    "loss_difference": -0.0483437180519104,
+    "winner": "ResNet50"
+  }
+}
