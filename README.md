@@ -30,7 +30,7 @@ A deep learning-based waste classification system that leverages **ResNet50 tran
 | **Training Strategy** | Frozen Base → Fine-tuning |
 | **Input Size** | 224 × 224 × 3 |
 | **Classes** | 3 (Organic, Recyclable, Non-Organic) |
-| **Training Time** | ~2-3 hours on GPU |
+| **Training Time** | ~5-7 hours on CPU |
 
 ---
 
